@@ -4,7 +4,7 @@ import "firebase/compat/firestore";
 import "firebase/compat/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDgE6q4EUl9Dv1I-CNC1V6zPDGD_O5P8jk",
+  apiKey: process.env.REACT_APP_FIREBASE_API,
   authDomain: "snapchat-43e31.firebaseapp.com",
   projectId: "snapchat-43e31",
   storageBucket: "snapchat-43e31.appspot.com",
